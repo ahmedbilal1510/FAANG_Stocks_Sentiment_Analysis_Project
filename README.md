@@ -1,6 +1,7 @@
 # FAANG_Stocks_Sentiment_Analysis_Project
-This project will allow us to conduct sentimental analysis of stocks (I have chosen FAANG stocks) from Financial news using Finviz.com
-Following are the steps I have taken to do the project:
+This project will allow us to conduct sentimental analysis of stocks (I have chosen FAANG stocks) from Financial news using Finviz.com.
+
+The following are the steps I have taken to do the project:
 1. Retreive the html data from Finviz.com using BeautifulSoup
 2. Parce the data we got from BeautifulSoup to get the data that we need (ticker, date, time, title) and make it readable
 3. Applying the data to a Pandas dataframe and calculating the sentiment analysis of the titles of articles using nltk's vader_lexicon (Vader sentiment analysis).
