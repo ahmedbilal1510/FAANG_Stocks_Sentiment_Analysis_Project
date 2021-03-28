@@ -1,13 +1,50 @@
-# FAANG_Stocks_Sentiment_Analysis_Project
-This project will allow us to conduct sentimental analysis of stocks (I have chosen FAANG stocks) from Financial news using Finviz.com.
+# Natural Language Toolkit (NLTK)
+[![PyPI](https://img.shields.io/pypi/v/nltk.svg)](https://pypi.python.org/pypi/nltk) 
+[![Travis](https://travis-ci.org/nltk/nltk.svg?branch=develop)](https://travis-ci.org/nltk/nltk)
 
-The following are the steps I have taken to do the project:
-1. Retreive the html data from Finviz.com using BeautifulSoup
-2. Parce the data we got from BeautifulSoup to get the data that we need (ticker, date, time, title) and make it readable
-3. Applying the data to a Pandas dataframe and calculating the sentiment analysis of the titles of articles using nltk's vader_lexicon (Vader sentiment analysis).
-4. Visualize the dataset in a barchart like format to see the highlights of the sentiment of FAANG stocks over the past few days
+NLTK -- the Natural Language Toolkit -- is a suite of open source Python
+modules, data sets, and tutorials supporting research and development in Natural
+Language Processing.
 
-The following is the result of this project:
+For documentation, please visit [nltk.org](http://www.nltk.org/).
 
-The positive figures show positive sentiment and the negative figures show negative sentiment. Some data for some stocks is missing on some days as Finviz did not have enough news for those stocks on those days.
-![Python FAANG Sentiment analysis project](https://user-images.githubusercontent.com/56721456/112744434-02a66080-8fdb-11eb-83b3-3a72c3070e26.png)
+
+## Contributing
+
+Do you want to contribute to NLTK development? Great! Please read more details
+at [CONTRIBUTING.md](CONTRIBUTING.md).
+
+See also [How to contribute to NLTK](http://www.nltk.org/contribute.html).
+
+
+## Donate
+
+Have you found the toolkit helpful?  Please support NLTK development by donating
+to the project via PayPal, using the link on the NLTK homepage.
+
+
+## Citing
+
+If you publish work that uses NLTK, please cite the NLTK book, as follows:
+
+    Bird, Steven, Edward Loper and Ewan Klein (2009).
+    Natural Language Processing with Python.  O'Reilly Media Inc.
+
+
+## Copyright
+
+Copyright (C) 2001-2020 NLTK Project
+
+For license information, see [LICENSE.txt](LICENSE.txt).
+
+[AUTHORS.md](AUTHORS.md) have a list of everyone contributed to NLTK.
+
+
+### Redistributing
+
+- NLTK source code is distributed under the Apache 2.0 License.
+- NLTK documentation is distributed under the Creative Commons
+  Attribution-Noncommercial-No Derivative Works 3.0 United States license.
+- NLTK corpora are provided under the terms given in the README file for each
+  corpus; all are redistributable and available for non-commercial use.
+- NLTK may be freely redistributed, subject to the provisions of these licenses.
