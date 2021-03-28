@@ -8,4 +8,5 @@ The following are the steps I have taken to do the project:
 4. Visualize the dataset in a barchart like format to see the highlights of the sentiment of FAANG stocks over the past few days
 
 The following is the result of this project:
+The positive figures show positive sentiment and the negative figures show negative sentiment. Some data for some stocks is missing on some days as Finviz did not have enough news for those stocks on those days.
 ![Python FAANG Sentiment analysis project](https://user-images.githubusercontent.com/56721456/112744434-02a66080-8fdb-11eb-83b3-3a72c3070e26.png)
