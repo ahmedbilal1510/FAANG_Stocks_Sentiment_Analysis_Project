@@ -11,3 +11,4 @@ The following are the steps I have taken during this project:
 The following are the results of this project:
 
 The positive figures show average positive sentiment and the negative figures show average negative sentiment for the day. Some data for some stocks is missing as there was not enough news for those stocks on those days.
+![Python FAANG Sentiment analysis project](https://user-images.githubusercontent.com/56721456/112744835-61b9a480-8fde-11eb-925c-569e5a08cb88.png)
